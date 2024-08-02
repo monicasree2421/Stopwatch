@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(108, 108, 255);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.stopwatch{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(178, 178, 253);
+    border-radius: 10px;
+    padding: 20px;
+}
+.watch{
+    font-size: 55px;
+    margin-left: 15px;
+}
+button{
+    background-color: red;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-left: 15px;
+}
+#lapRecord{
+  text-align: center;
+}
